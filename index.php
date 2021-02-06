@@ -10,12 +10,9 @@
 
 </head>
 <body>
-<?php
-if (isset($_POST['submit']))
 
-?>
-
-<form action="index.php" method="post">
+</body>
+<form action="check.php" method="post">
     <input name="data">
     <br>
     <button type="submit" class="btn btn-primary">Ok</button>
